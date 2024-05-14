@@ -11,7 +11,7 @@ elif (r1=="I") or (r1=="i"):
     v2=ten2/res2
     print(f"O valor da Corrente é {v2}")
 elif (r1=="R") or (r1=="r"):
-    ten3=float(input("Digete o valor o valor da Tensão: "))
+    ten3=float(input("Digite o valor o valor da Tensão: "))
     cor3=float(input("Digite o valor da Corrente: "))
     v3=ten3/cor3
     print(f"O valor da Corrente é {v3}")

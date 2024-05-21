@@ -9,6 +9,6 @@ while iteracao > 0:
     else:
         iteracao-=1
         if iteracao == 0:
-            print("Tentativas de senhas esgotadas. Programa encerrado!")
+            print("Sua senha foi bloqueada! Por favor, dirija-se a um de nossos caixas.")
             break
         print(f"Você agora só tem mais {iteracao} tentativas!")        

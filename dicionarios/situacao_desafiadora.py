@@ -15,7 +15,7 @@ print(50 * '-')
 
 for cod, prod in produtos.items():
     subtotal = prod[1] * prod[2]
-    print(f"{cod} - {prod[0]} - R$ {prod[1]:.2f} - {prod[2]} un - R$ {subtotal:.2f}")
+    print(f"{prod[0]} - R$ {prod[1]:.2f} - {prod[2]} un - R$ {subtotal:.2f}")
     total += subtotal
 
 print(50 * '-')
